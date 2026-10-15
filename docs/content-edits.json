@@ -1,0 +1,181 @@
+[
+  {
+    "path": "/blogs/news/3-ways-to-integrate-data-into-a-teamworks-ams-smartabase-site",
+    "changes": [
+      {
+        "reason": "Original help center closed; replaced scale guide with current reference or marked unavailable",
+        "url": "https://smartabase.zendesk.com/hc/en-us/articles/15009921495572-Using-the-Teamworks-AMS-API"
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      }
+    ]
+  },
+  {
+    "path": "/blogs/news/how-to-set-up-your-rice-lake-bluetooth-scale-with-teamworks-ams",
+    "changes": [
+      {
+        "reason": "Removed scale purchase invitation",
+        "removed_text": "1. A scale. If you don't already have a Teamworks AMS compatible Rice Lake Bluetooth Scale, click here ."
+      },
+      {
+        "reason": "Removed unverified shipment claim; retained Bluetooth instructions",
+        "removed_text": "PRT has shipped hundreds of bluetooth scales and we have not had a single one delivered incorrectly."
+      }
+    ]
+  },
+  {
+    "path": "/blogs/news/rice-lake-bluetooth-physician-scales",
+    "changes": [
+      {
+        "reason": "Obsolete store heading, fulfillment term, or offer",
+        "removed_text": "Questions?"
+      },
+      {
+        "reason": "Obsolete promotion or support offer",
+        "removed_text": "If you have any questions about the scales or functionality with Teamworks AMS, contact us here or by email at sales.prorecoverytech.com."
+      },
+      {
+        "reason": "Obsolete promotion or support offer",
+        "removed_text": "We offer a price match guarantee and will match or beat any quoted price from another vendor."
+      },
+      {
+        "reason": "Removed purchase link, retained link text",
+        "url": "https://prorecoverytech.com/products/rice-lake-150-10-7-ble-smartabase-bundle"
+      },
+      {
+        "reason": "Removed purchase link, retained link text",
+        "url": "https://prorecoverytech.com/products/150-10-8-digital-physician-scale-floor-level"
+      },
+      {
+        "reason": "Removed purchase link, retained link text",
+        "url": "https://prorecoverytech.com/products/rice-lake-digital-physician-scale-eye-level-150-10-5?variant=49405469032749"
+      }
+    ]
+  },
+  {
+    "path": "/blogs/news/breaking-down-the-teamworks-gatorade-weight-tracking-solution",
+    "changes": [
+      {
+        "reason": "Obsolete promotion or support offer",
+        "removed_text": "**Looking for the Bluetooth enabled Rice Lake Scale? PRT has you covered, check it out here .**"
+      },
+      {
+        "reason": "Original help center closed; replaced scale guide with current reference or marked unavailable",
+        "url": "https://smartabase.zendesk.com/hc/en-us/articles/24150482601748-Introduction-to-the-Teamworks-Gx-Platform"
+      },
+      {
+        "reason": "Removed purchase link, retained link text",
+        "url": "https://prorecoverytech.com/products/rice-lake-150-10-7-ble-smartabase-bundle"
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      }
+    ]
+  },
+  {
+    "path": "/blogs/news/installing-smartabaser-a-step-by-step-guide",
+    "changes": [
+      {
+        "reason": "Obsolete store heading, fulfillment term, or offer",
+        "removed_text": "Need Help?"
+      },
+      {
+        "reason": "Obsolete promotion or support offer",
+        "removed_text": "Reach out via our contact page . PRT can assist with developing advanced Smartabase workflows and answer general questions."
+      },
+      {
+        "reason": "Corrected inherited nested-list HTML without changing wording"
+      }
+    ]
+  },
+  {
+    "path": "/blogs/news/what-is-an-api-a-simple-guide-for-integrating-data-in-athlete-management-systems",
+    "changes": []
+  },
+  {
+    "path": "/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker",
+    "changes": [
+      {
+        "reason": "Removed historical retail price",
+        "removed_text": "Affordable (under $100)"
+      },
+      {
+        "reason": "Obsolete store heading, fulfillment term, or offer",
+        "removed_text": "Comes with 6 months of Fitbit Premium"
+      },
+      {
+        "reason": "Obsolete promotion or support offer",
+        "removed_text": "Interested in purchasing a Fitbit Inspire 3? Check out our shop."
+      },
+      {
+        "reason": "Removed purchase link, retained link text",
+        "url": "https://prorecoverytech.com/products/fitbit-inspire-3"
+      }
+    ]
+  },
+  {
+    "path": "/blogs/health-performance/unlocking-peak-performance-the-benefits-of-whole-body-red-light-therapy",
+    "changes": []
+  },
+  {
+    "path": "/blogs/news/rice-lake-bluetooth-scale-integration-with-smartabase-emr",
+    "changes": [
+      {
+        "reason": "Removed included adapter sales offer; retained technical power-adapter note",
+        "removed_text": "In addition to verifying the bluetooth model, make sure you ask for the AC power adapter to plug the scale into the wall. This is an additional part number. If you decide to order from Pro Recovery Tech, we include the AC Power adapter with the purchase of the scale, free of charge."
+      },
+      {
+        "reason": "Obsolete store heading, fulfillment term, or offer",
+        "removed_text": "How to Purchase"
+      },
+      {
+        "reason": "Obsolete promotion or support offer",
+        "removed_text": "Pro Recovery Tech is an authorized distributor of Rice Lake Scales and can ensure the correct scale is ordered, competitive pricing and free shipping to the continental US."
+      },
+      {
+        "reason": "Removed purchasing invitation; retained original compatibility claim, flagged as historical",
+        "removed_text": "Here is the link for the Bluetooth enabled Rice Lake Scale, Model 150-10-7 BLE, that integrates with Smartabase. This is the only scale model that is capable of successfully integrating."
+      },
+      {
+        "reason": "Obsolete store heading, fulfillment term, or offer",
+        "removed_text": "What's Included with a Scale Purchase?"
+      },
+      {
+        "reason": "Obsolete store heading, fulfillment term, or offer",
+        "removed_text": "Free Shipping - within 1 business day"
+      },
+      {
+        "reason": "Obsolete promotion or support offer",
+        "removed_text": "If you have any questions about the scale please contact our sales team ."
+      },
+      {
+        "reason": "Removed purchase link, retained link text",
+        "url": "https://prorecoverytech.com/products/rice-lake-150-10-7-ble-smartabase-bundle"
+      },
+      {
+        "reason": "Removed purchase link, retained link text",
+        "url": "https://prorecoverytech.com/products/rice-lake-150-10-7-ble-smartabase-bundle"
+      },
+      {
+        "reason": "Original help center closed; replaced scale guide with current reference or marked unavailable",
+        "url": "https://smartabase.zendesk.com/hc/en-us/articles/15009765477396-Recording-Data-from-Bluetooth-Scales-using-the-Kiosk-App"
+      }
+    ]
+  }
+]

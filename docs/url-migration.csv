@@ -1,0 +1,47 @@
+old_path,status,destination,reason
+/,200,/,Homepage replaced with distributor update
+/account,410,,Retired store or policy page with no equivalent informational replacement
+/account/login,410,,Retired store or policy page with no equivalent informational replacement
+/agents.md,410,,Retired store or policy page with no equivalent informational replacement
+/blogs,301,/resources/,Resource library replaces blog index
+/blogs/health-performance,301,/resources/health-performance/,Closest informational replacement
+/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker,200,/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker,Original article URL retained
+/blogs/health-performance/unlocking-peak-performance-the-benefits-of-whole-body-red-light-therapy,200,/blogs/health-performance/unlocking-peak-performance-the-benefits-of-whole-body-red-light-therapy,Original article URL retained
+/blogs/news,301,/resources/data-ams/,Closest informational replacement
+/blogs/news/3-ways-to-integrate-data-into-a-teamworks-ams-smartabase-site,200,/blogs/news/3-ways-to-integrate-data-into-a-teamworks-ams-smartabase-site,Original article URL retained
+/blogs/news/breaking-down-the-teamworks-gatorade-weight-tracking-solution,200,/blogs/news/breaking-down-the-teamworks-gatorade-weight-tracking-solution,Original article URL retained
+/blogs/news/how-to-set-up-your-rice-lake-bluetooth-scale-with-teamworks-ams,200,/blogs/news/how-to-set-up-your-rice-lake-bluetooth-scale-with-teamworks-ams,Original article URL retained
+/blogs/news/installing-smartabaser-a-step-by-step-guide,200,/blogs/news/installing-smartabaser-a-step-by-step-guide,Original article URL retained
+/blogs/news/rice-lake-bluetooth-physician-scales,200,/blogs/news/rice-lake-bluetooth-physician-scales,Original article URL retained
+/blogs/news/rice-lake-bluetooth-scale-integration-with-smartabase-emr,200,/blogs/news/rice-lake-bluetooth-scale-integration-with-smartabase-emr,Original article URL retained
+/blogs/news/what-is-an-api-a-simple-guide-for-integrating-data-in-athlete-management-systems,200,/blogs/news/what-is-an-api-a-simple-guide-for-integrating-data-in-athlete-management-systems,Original article URL retained
+/cart,410,,Retired store or policy page with no equivalent informational replacement
+/checkout,410,,Retired store or policy page with no equivalent informational replacement
+/collections/all,410,,Retired store or policy page with no equivalent informational replacement
+/collections/frontpage,410,,Retired store or policy page with no equivalent informational replacement
+/collections/health-scales,410,,Retired store or policy page with no equivalent informational replacement
+/collections/kiosk-floor-stands,410,,Retired store or policy page with no equivalent informational replacement
+/pages/contact,301,/support/,Closest informational replacement
+/pages/newsletter,410,,Retired store or policy page with no equivalent informational replacement
+/policies/privacy-policy,301,/privacy/,Closest informational replacement
+/policies/refund-policy,410,,Retired store or policy page with no equivalent informational replacement
+/policies/shipping-policy,410,,Retired store or policy page with no equivalent informational replacement
+/policies/terms-of-service,410,,Retired store or policy page with no equivalent informational replacement
+/products,410,,Retired store or policy page with no equivalent informational replacement
+/products/150-10-8-digital-physician-scale-floor-level,301,/blogs/news/rice-lake-bluetooth-physician-scales,Retained model information; no purchasing functionality
+/products/evo-elite-ipad-floor-stand-copy,410,,Retired store or policy page with no equivalent informational replacement
+/products/evo-elite-ipad-floor-stand-white,410,,Retired store or policy page with no equivalent informational replacement
+/products/fitbit-inspire-3,301,/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker,Retained Fitbit features and sleep-tracking guide
+/products/rice-lake-150-10-7-ble-smartabase-bundle,301,/blogs/news/rice-lake-bluetooth-physician-scales,Retained model information; no purchasing functionality
+/products/rice-lake-150-10-7-physician-scale,301,/blogs/news/rice-lake-bluetooth-physician-scales,Retained model information; no purchasing functionality
+/products/rice-lake-bluetooth-firmware-update,410,,Retired store or policy page with no equivalent informational replacement
+/products/rice-lake-digital-physician-scale-eye-level-150-10-5,301,/blogs/news/rice-lake-bluetooth-physician-scales,Retained model information; no purchasing functionality
+/products/rice-lake-digital-physician-scale-waist-level-150-10-6,410,,Retired store or policy page with no equivalent informational replacement
+/products/rice-lake-scale-150-10-7-power-adapter,410,,Retired store or policy page with no equivalent informational replacement
+/products/rolling-ipad-kiosk-stand,410,,Retired store or policy page with no equivalent informational replacement
+/search,410,,Retired store or policy page with no equivalent informational replacement
+/resources,301,/resources/,Normalize new page URL
+/resources/data-ams,301,/resources/data-ams/,Normalize new page URL
+/resources/health-performance,301,/resources/health-performance/,Normalize new page URL
+/support,301,/support/,Normalize new page URL
+/privacy,301,/privacy/,Normalize new page URL

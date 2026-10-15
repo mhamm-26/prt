@@ -1,0 +1,39 @@
+<h2 id="section-1">Step 1 - Smartabase (Teamworks AMS) Access</h2>
+<p>Before you can install and use smartabaseR you will need the following:</p>
+<ol>
+<li>R and Studio downloaded - If you haven't done this do a quick youtube/google search.</li>
+<li>A Smartabase (Teamworks AMS) site<ol>
+<li>Site credentials - ensure you have the appropriate Coach access and data permissions.</li>
+<li>If you are a site builder or admin and plan on exporting data for multiple groups make yourself a direct "Coach" of all groups, not just parent groups.</li>
+<li>You will need all data permissions to export data from a specific event form</li>
+</ol></li>
+
+</ol>
+<h2 id="section-2">Step 2 - Download the devtools package</h2>
+<p>Open R Studio and run the following command:</p>
+<p><em>install.packages(devtools)</em></p>
+<p>Wait for the download then proceed to step 3.</p>
+<h2 id="section-3">Step 3 - Install smartabaseR from Github</h2>
+<p>Run the following commands:</p>
+<p><em>library(devtools)</em><br/></p>
+<p><em>install_github("Teamworksapp/smartabaseR")</em></p>
+<p><em>Wait for the download then proceed to step 4.</em></p>
+<h2 id="section-4">Step 4 - Load the package and test</h2>
+<p>For your test export, select a small form with limited data, and/or a short date range. You want to make sure it works, not download everything in the site.</p>
+<p><em>library(smartabaseR) </em></p>
+<p><em>df -&gt; sb_get_event( </em></p>
+<p><em>    url = " ", # site URL</em></p>
+<p><em>    form = " ", # event form name</em></p>
+<p><em>    date_range = c("01/01/2024", "01/03/2024"), # date format = dd/mm/yyyy </em></p>
+<p><em>    username = " ", # your site username, case sensitive</em></p>
+<p><em>    password = " ", # your site password</em></p>
+<p><em>    sb_get_event_filter( </em></p>
+<p><em>        user_key = "group", # this allows you to specify a group</em></p>
+<p><em>        user_value = " ", # group name from smartabase (teamworks AMS) site</em></p>
+<p><em>   ) </em></p>
+<p><em>)</em></p>
+<h2 id="section-5">Code Summary</h2>
+<p>Here is the complete code:</p>
+<p><img alt="Original smartabaseR code summary screenshot" decoding="async" height="303" loading="lazy" src="/assets/49f7b3d0420f3082.webp" width="480"/></p>
+<h2 id="section-6">Additional Resources</h2>
+<p> Here is a <a href="https://github.com/Teamworksapp/smartabaseR" rel="noopener noreferrer">link</a> to the smartabaseR GitHub page and a <a href="https://teamworksapp.github.io/smartabaseR/" rel="noopener noreferrer">link</a> to additional documentation.</p>

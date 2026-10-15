@@ -1,0 +1,278 @@
+[
+  {
+    "old_path": "/",
+    "status": 200,
+    "destination": "/",
+    "reason": "Homepage replaced with distributor update"
+  },
+  {
+    "old_path": "/account",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/account/login",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/agents.md",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/blogs",
+    "status": 301,
+    "destination": "/resources/",
+    "reason": "Resource library replaces blog index"
+  },
+  {
+    "old_path": "/blogs/health-performance",
+    "status": 301,
+    "destination": "/resources/health-performance/",
+    "reason": "Closest informational replacement"
+  },
+  {
+    "old_path": "/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker",
+    "status": 200,
+    "destination": "/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/health-performance/unlocking-peak-performance-the-benefits-of-whole-body-red-light-therapy",
+    "status": 200,
+    "destination": "/blogs/health-performance/unlocking-peak-performance-the-benefits-of-whole-body-red-light-therapy",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/news",
+    "status": 301,
+    "destination": "/resources/data-ams/",
+    "reason": "Closest informational replacement"
+  },
+  {
+    "old_path": "/blogs/news/3-ways-to-integrate-data-into-a-teamworks-ams-smartabase-site",
+    "status": 200,
+    "destination": "/blogs/news/3-ways-to-integrate-data-into-a-teamworks-ams-smartabase-site",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/news/breaking-down-the-teamworks-gatorade-weight-tracking-solution",
+    "status": 200,
+    "destination": "/blogs/news/breaking-down-the-teamworks-gatorade-weight-tracking-solution",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/news/how-to-set-up-your-rice-lake-bluetooth-scale-with-teamworks-ams",
+    "status": 200,
+    "destination": "/blogs/news/how-to-set-up-your-rice-lake-bluetooth-scale-with-teamworks-ams",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/news/installing-smartabaser-a-step-by-step-guide",
+    "status": 200,
+    "destination": "/blogs/news/installing-smartabaser-a-step-by-step-guide",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/news/rice-lake-bluetooth-physician-scales",
+    "status": 200,
+    "destination": "/blogs/news/rice-lake-bluetooth-physician-scales",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/news/rice-lake-bluetooth-scale-integration-with-smartabase-emr",
+    "status": 200,
+    "destination": "/blogs/news/rice-lake-bluetooth-scale-integration-with-smartabase-emr",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/blogs/news/what-is-an-api-a-simple-guide-for-integrating-data-in-athlete-management-systems",
+    "status": 200,
+    "destination": "/blogs/news/what-is-an-api-a-simple-guide-for-integrating-data-in-athlete-management-systems",
+    "reason": "Original article URL retained"
+  },
+  {
+    "old_path": "/cart",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/checkout",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/collections/all",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/collections/frontpage",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/collections/health-scales",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/collections/kiosk-floor-stands",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/pages/contact",
+    "status": 301,
+    "destination": "/support/",
+    "reason": "Closest informational replacement"
+  },
+  {
+    "old_path": "/pages/newsletter",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/policies/privacy-policy",
+    "status": 301,
+    "destination": "/privacy/",
+    "reason": "Closest informational replacement"
+  },
+  {
+    "old_path": "/policies/refund-policy",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/policies/shipping-policy",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/policies/terms-of-service",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/products",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/products/150-10-8-digital-physician-scale-floor-level",
+    "status": 301,
+    "destination": "/blogs/news/rice-lake-bluetooth-physician-scales",
+    "reason": "Retained model information; no purchasing functionality"
+  },
+  {
+    "old_path": "/products/evo-elite-ipad-floor-stand-copy",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/products/evo-elite-ipad-floor-stand-white",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/products/fitbit-inspire-3",
+    "status": 301,
+    "destination": "/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker",
+    "reason": "Retained Fitbit features and sleep-tracking guide"
+  },
+  {
+    "old_path": "/products/rice-lake-150-10-7-ble-smartabase-bundle",
+    "status": 301,
+    "destination": "/blogs/news/rice-lake-bluetooth-physician-scales",
+    "reason": "Retained model information; no purchasing functionality"
+  },
+  {
+    "old_path": "/products/rice-lake-150-10-7-physician-scale",
+    "status": 301,
+    "destination": "/blogs/news/rice-lake-bluetooth-physician-scales",
+    "reason": "Retained model information; no purchasing functionality"
+  },
+  {
+    "old_path": "/products/rice-lake-bluetooth-firmware-update",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/products/rice-lake-digital-physician-scale-eye-level-150-10-5",
+    "status": 301,
+    "destination": "/blogs/news/rice-lake-bluetooth-physician-scales",
+    "reason": "Retained model information; no purchasing functionality"
+  },
+  {
+    "old_path": "/products/rice-lake-digital-physician-scale-waist-level-150-10-6",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/products/rice-lake-scale-150-10-7-power-adapter",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/products/rolling-ipad-kiosk-stand",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/search",
+    "status": 410,
+    "destination": "",
+    "reason": "Retired store or policy page with no equivalent informational replacement"
+  },
+  {
+    "old_path": "/resources",
+    "status": 301,
+    "destination": "/resources/",
+    "reason": "Normalize new page URL"
+  },
+  {
+    "old_path": "/resources/data-ams",
+    "status": 301,
+    "destination": "/resources/data-ams/",
+    "reason": "Normalize new page URL"
+  },
+  {
+    "old_path": "/resources/health-performance",
+    "status": 301,
+    "destination": "/resources/health-performance/",
+    "reason": "Normalize new page URL"
+  },
+  {
+    "old_path": "/support",
+    "status": 301,
+    "destination": "/support/",
+    "reason": "Normalize new page URL"
+  },
+  {
+    "old_path": "/privacy",
+    "status": 301,
+    "destination": "/privacy/",
+    "reason": "Normalize new page URL"
+  }
+]

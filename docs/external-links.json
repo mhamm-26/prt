@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://apps.apple.com/us/app/teamworks-ams/id1639825572",
+    "status": 200,
+    "final_url": "https://apps.apple.com/us/app/teamworks-ams/id1639825572"
+  },
+  {
+    "url": "https://github.com/Teamworksapp/smartabaseR",
+    "status": 200,
+    "final_url": "https://github.com/Teamworksapp/smartabaseR"
+  },
+  {
+    "url": "https://help.teamworks.com/ams/s/article/recording-data-from-bluetooth-scales-using-kiosk-mode-on-the-ams-mobile-app",
+    "status": 200,
+    "final_url": "https://help.teamworks.com/ams/s/article/recording-data-from-bluetooth-scales-using-kiosk-mode-on-the-ams-mobile-app"
+  },
+  {
+    "url": "https://help.teamworks.com/ams/s/article/recording-data-from-bluetooth-scales-using-kiosk-mode-on-the-ams-mobile-app#h_01FYTC9X49J8VM7SMK1N54Q9XM",
+    "status": 200,
+    "final_url": "https://help.teamworks.com/ams/s/article/recording-data-from-bluetooth-scales-using-kiosk-mode-on-the-ams-mobile-app#h_01FYTC9X49J8VM7SMK1N54Q9XM"
+  },
+  {
+    "url": "https://teamworksapp.github.io/smartabaseR/",
+    "status": 200,
+    "final_url": "https://teamworksapp.github.io/smartabaseR/"
+  },
+  {
+    "url": "https://www.ricelake.com/",
+    "status": 200,
+    "final_url": "https://www.ricelake.com/"
+  }
+]

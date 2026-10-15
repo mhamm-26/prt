@@ -1,0 +1,67 @@
+<p>The Teamworks AMS platform is a highly customizable athlete management system that helps teams and organizations track, manage, and analyze medical/performance data. A well-implemented data integration strategy can enhance efficiency and overall value. By pulling in external data and ensuring the smooth flow of information between various platforms, teams can make smarter decisions, optimize training, and reduce the administrative burden. Here are three effective ways to integrate data into an AMS site:</p>
+<ol>
+<li>Automated (API integrations)</li>
+<li>Semi Automated (build your own integration)</li>
+<li>Manual Data Entry (bulk or group entry)</li>
+</ol>
+<h2 id="section-1">1. Automation - API Integrations</h2>
+<p>Application Programming Interfaces (APIs) allow different software platforms to communicate with one another by exchanging data in real-time or on a scheduled basis.</p>
+<p>Want to learn more? <a href="/blogs/news/what-is-an-api-a-simple-guide-for-integrating-data-in-athlete-management-systems">Check out this post</a>. Here is a very brief overview:</p>
+<h3 id="section-2"><b>Benefits of API Integrations:</b></h3>
+<ul>
+<li>Real-time Data Transfer</li>
+<li>Automation</li>
+</ul>
+<h3 id="section-3"><b>Example Use Case:</b></h3>
+<p>GPS tracking data can be automatically synced with your AMS system via an API. Data flows seamlessly into a report for analysis and information sharing.</p>
+<h2 id="section-4">2. Build your own Integrations</h2>
+<p>Teamworks AMS has API documentation [Original help-center reference is no longer available.] available for its clients. Additionally, there is a R package <a href="https://teamworksapp.github.io/smartabaseR/" rel="noopener noreferrer">(smartabaseR)</a> which makes integration even easier (<a href="/blogs/news/installing-smartabaser-a-step-by-step-guide">learn how to download smartabaseR here</a>).</p>
+<p>Using the API or the R package is on the technical side of a ‘no-code’ platform, but these features give you the ability to customize your workflows and set up processes you wouldn’t normally be able to do.</p>
+<h3 id="section-5"><b>Benefits:</b></h3>
+<ul>
+<li>
+<b>Expanding Capabilities</b>: Integrate with data sources that Teamworks AMS does not support.
+<ul>
+<li>Sport or game statistics</li>
+<li>Weather data</li>
+<li>Roster Management workflows</li>
+<li>Automating other tasks to reduce administrative burden (Importing API mapping Ids)</li>
+<li>Monitoring technologies that are not supported</li>
+</ul></li>
+
+<li>
+<b>Complex Workflows</b>: Teamworks AMS does not support the ability to aggregate group data and calculate against that data
+<ul>
+<li>Calculating normative data for each sport or position group and using that as a reference point to determine distance from the norm</li>
+</ul></li>
+
+<li>
+<b>Data Science Initiatives</b>: Once you have enough data in your AMS site, you may want to leverage the data for additional insights. This can only be achieved by exporting data into statistical models, which is more efficient via an API.
+</li>
+</ul>
+<h2 id="section-6">3. Manual Data Entry Options</h2>
+<p>For organizations that do not have the technical resources to leverage the R package or develop their own API, there are a number of options to bulk enter data.</p>
+<ul>
+<li>Importing</li>
+<li>Group entry</li>
+<li>Kiosk mode</li>
+</ul>
+<h3 id="section-7"><b>Importing data using a CSV file</b></h3>
+<ul>
+<li>
+<b>Ease of Use</b>: Most technologies allow users to export data as a standardized CSV file (it's the same format every time). You can use this CSV to create an event form in your AMS site and streamline the import process.  Make sure all the athlete’s names are an exact match between platforms to make this process even easier.
+</li>
+<li>
+<b>Large Data Sets</b>: Bulk uploads make it easy to integrate months or years of historical data at one time.
+</li>
+</ul>
+<h3 id="section-8"><b>Group Entry</b></h3>
+<p>Group Entry is a feature that allows users to input data for multiple athletes at once. This method is an effective way to enter similar (or same) data for multiple athletes or unique data for every athlete through a spreadsheet type interface.</p>
+<h3 id="section-9">Example Use Case:</h3>
+<p>A coach may use Group Entry to Enter RPE values for an entire team after a training session or practice. The coach can quickly enter the same or different data points for all athletes in one view to streamline the data entry process.</p>
+<h3 id="section-10"><b>Kiosk Mode</b></h3>
+<p>A kiosk is set up through the Teamworks AMS app and can be used to enter data for a single athlete. Typically, kiosk based workflows are set up for the athlete to enter data and are efficient because the athlete does not have to login. </p>
+<h3 id="section-11"><b>Example Use Case:</b></h3>
+<p>A kiosk is set up to collect wellness questionnaire data before a training session. Athlete walks up to the ipad, selects their name, completes the questionnaire, saves the record. The data is immediately saved to the AMS site and ready to be viewed in a dashboard. The kiosk resets and is ready for the next athlete.</p>
+<h2 id="section-12">Conclusion</h2>
+<p>Integrating data into your AMS is essential for maximizing its value. Learning more about the various integration methods will allow you to set up more efficient and standardized processes for data collection. Developing efficient processes ensures organizational efficiency and value to every end user, because information is accessible and actionable. </p>

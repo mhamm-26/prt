@@ -1,0 +1,32 @@
+name: Validate static website
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build static site
+        run: python3 tools/build.py
+      - name: Validate pages and migration routes
+        run: |
+          python3 tools/serve.py > /tmp/prt-preview.log 2>&1 &
+          preview_pid=$!
+          trap 'kill "$preview_pid"' EXIT
+          python3 - <<'PY'
+          import time, urllib.request
+          for attempt in range(30):
+              try:
+                  urllib.request.urlopen('http://127.0.0.1:8000/', timeout=1).close()
+                  break
+              except OSError:
+                  time.sleep(0.2)
+          else:
+              raise SystemExit('Preview did not start')
+          PY
+          python3 tools/check.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: static-website
+          path: dist/

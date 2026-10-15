@@ -1,0 +1,111 @@
+{
+  "assets": [
+    {
+      "source": "https://prorecoverytech.com/cdn/shop/files/PRT_Logo_Transparent_1.png?v=1682043884&width=600",
+      "path": "/assets/logo.png",
+      "width": 600,
+      "height": 98,
+      "source_sha256": "1ae8e644b35b5b83a0a99a0e6cf9eda7083d339609c9120075a55d41929bec64"
+    },
+    {
+      "source": "https://prorecoverytech.com/cdn/shop/files/PRT_Monogram_Transparent_1.png?crop=center&height=32&v=1682043881&width=32",
+      "path": "/assets/favicon.png",
+      "width": 32,
+      "height": 32,
+      "source_sha256": "ba1187eae9c57416d8458d6ac18dbbc738c5955a38ef371b05ac42e790b1c00c"
+    },
+    {
+      "source": "https://prorecoverytech.com/cdn/fonts/assistant/assistant_n4.9120912a469cad1cc292572851508ca49d12e768.woff2",
+      "path": "/assets/assistant-regular.woff2",
+      "source_sha256": "8f7d1f17c2ac3abcef5a7d4fd0521e3af21111470a7727763b9780999edeb716"
+    },
+    {
+      "source": "https://prorecoverytech.com/cdn/fonts/assistant/assistant_n7.bf44452348ec8b8efa3aa3068825305886b1c83c.woff2",
+      "path": "/assets/assistant-bold.woff2",
+      "source_sha256": "8544167430ed9aae627b4b8d6f5ac6fc7f260fced7cd4fda9675704f855cf350"
+    },
+    {
+      "source": "https://prorecoverytech.com/cdn/shop/articles/data_entry_smartabase_teamworks_ams.webp?v=1727317738&width=1100",
+      "path": "/assets/858677f00bf4eb9d.webp",
+      "width": 1024,
+      "height": 1024,
+      "source_sha256": "744f28a0566a324760956bb550929f9f2f7056a1516c316d6d94c0c766eda384"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/1_lb_floorlevel_150_lr_1a4e6a23-1b23-49f2-b589-ce6f66b09b21_480x480.jpg?v=1713549501",
+      "path": "/assets/0d8a39a630432437.webp",
+      "width": 480,
+      "height": 320,
+      "source_sha256": "5f36bde9b88df7ce9992c18644da54ba168b09aabe27d5dc9f3fbe3017a25766"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/web_150-10-8_sc_480x480.png?v=1729132078",
+      "path": "/assets/860f59935894abe2.webp",
+      "width": 419,
+      "height": 480,
+      "source_sha256": "408275d37415fdfecacc982d0368d5df41ae82afb311d5023ef4db4e240e4056"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/web_sc_150105-dps-elc_480x480.png?v=1717642410",
+      "path": "/assets/809ac56648f45a2f.webp",
+      "width": 419,
+      "height": 480,
+      "source_sha256": "bdfaa2b365eceb7b659cfcb5b365d4b02a32f3136ae09c4f93feb7cdcd6825eb"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/Screen_Shot_2024-06-06_at_10.03.00_PM_480x480.png?v=1717729411",
+      "path": "/assets/49f7b3d0420f3082.webp",
+      "width": 480,
+      "height": 303,
+      "source_sha256": "019b41c588522078ec21c5dcf753182b88f699c3ea34ce9c48673f5a10a26374"
+    },
+    {
+      "source": "https://prorecoverytech.com/cdn/shop/articles/api_for_ams_systems.webp?v=1726627330&width=1100",
+      "path": "/assets/f1e039e23055ce89.webp",
+      "width": 1100,
+      "height": 629,
+      "source_sha256": "adc7343a0f845bed99c520ec08e4eeaa56943fbba5a02c36dc801c7da90433ae"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/DALL_E_2024-10-02_20.32.13_-_A_sleek_modern_fitness_tracker_like_the_Fitbit_Inspire_3_displayed_against_a_neutral_background_with_visual_elements_representing_sleep_tracking_suc_480x480.webp?v=1728957059",
+      "path": "/assets/5120d90e090e9164.webp",
+      "width": 480,
+      "height": 480,
+      "source_sha256": "5ff1c155cb8821da0936cb311b530944f12679f63c95344fe9afcb8c19b1014f"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/whole_body_red_light_therapy_mitochondira_480x480.webp?v=1728955682",
+      "path": "/assets/66e75afe4bf12a32.webp",
+      "width": 480,
+      "height": 480,
+      "source_sha256": "7af99f5e14c02ec33ff91cd3c0c2898c0edb1d3325c3e564b528befad63eddf2"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/whole_body_red_light_therapy_and_human_performance_480x480.webp?v=1728956846",
+      "path": "/assets/35177ed83493f8cf.webp",
+      "width": 480,
+      "height": 480,
+      "source_sha256": "fb3dcd332303746583c403a4acfe956d30b18ba4f67bc19b229018f68795e5c2"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/whole_body_red_light_therapy_bed_480x480.webp?v=1728956902",
+      "path": "/assets/bf01f6fe1602aa5b.webp",
+      "width": 480,
+      "height": 480,
+      "source_sha256": "29bd234c7df2eff3f34e4b418edad78669a4bc4fc54b4ff56d3164c76747c7f7"
+    },
+    {
+      "source": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/1_lb_floorlevel_150_lr_befab377-76a7-4e0d-a711-7f8d62016636_480x480.jpg?v=1709435128",
+      "path": "/assets/47982e5c8166c365.webp",
+      "width": 480,
+      "height": 320,
+      "source_sha256": "8fafacaf3f7c0eaac8eccb6d83216d318b87e483f25241050853b7d0016059ed"
+    }
+  ],
+  "missing": [
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0748/2625/2589/files/IMG_8709_480x480.png?v=1727055792",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
