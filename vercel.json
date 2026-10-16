@@ -1,0 +1,462 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "python3 tools/build.py",
+  "outputDirectory": "dist",
+  "routes": [
+    {
+      "src": "^/account$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/account/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/account/login$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/account/login/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/agents\\.md$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/agents\\.md/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/blogs$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/"
+      }
+    },
+    {
+      "src": "^/blogs/$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/"
+      }
+    },
+    {
+      "src": "^/blogs/health\\-performance$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/health-performance/"
+      }
+    },
+    {
+      "src": "^/blogs/health\\-performance/$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/health-performance/"
+      }
+    },
+    {
+      "src": "^/blogs/news$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/data-ams/"
+      }
+    },
+    {
+      "src": "^/blogs/news/$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/data-ams/"
+      }
+    },
+    {
+      "src": "^/cart$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/cart/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/checkout$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/checkout/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/all$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/all/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/frontpage$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/frontpage/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/health\\-scales$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/health\\-scales/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/kiosk\\-floor\\-stands$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/collections/kiosk\\-floor\\-stands/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/pages/contact$",
+      "status": 301,
+      "headers": {
+        "Location": "/support/"
+      }
+    },
+    {
+      "src": "^/pages/contact/$",
+      "status": 301,
+      "headers": {
+        "Location": "/support/"
+      }
+    },
+    {
+      "src": "^/pages/newsletter$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/pages/newsletter/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/policies/privacy\\-policy$",
+      "status": 301,
+      "headers": {
+        "Location": "/privacy/"
+      }
+    },
+    {
+      "src": "^/policies/privacy\\-policy/$",
+      "status": 301,
+      "headers": {
+        "Location": "/privacy/"
+      }
+    },
+    {
+      "src": "^/policies/refund\\-policy$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/policies/refund\\-policy/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/policies/shipping\\-policy$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/policies/shipping\\-policy/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/policies/terms\\-of\\-service$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/policies/terms\\-of\\-service/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/150\\-10\\-8\\-digital\\-physician\\-scale\\-floor\\-level$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/150\\-10\\-8\\-digital\\-physician\\-scale\\-floor\\-level/$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/evo\\-elite\\-ipad\\-floor\\-stand\\-copy$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/evo\\-elite\\-ipad\\-floor\\-stand\\-copy/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/evo\\-elite\\-ipad\\-floor\\-stand\\-white$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/evo\\-elite\\-ipad\\-floor\\-stand\\-white/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/fitbit\\-inspire\\-3$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker"
+      }
+    },
+    {
+      "src": "^/products/fitbit\\-inspire\\-3/$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker"
+      }
+    },
+    {
+      "src": "^/products/rice\\-lake\\-150\\-10\\-7\\-ble\\-smartabase\\-bundle$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/rice\\-lake\\-150\\-10\\-7\\-ble\\-smartabase\\-bundle/$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/rice\\-lake\\-150\\-10\\-7\\-physician\\-scale$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/rice\\-lake\\-150\\-10\\-7\\-physician\\-scale/$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/rice\\-lake\\-bluetooth\\-firmware\\-update$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/rice\\-lake\\-bluetooth\\-firmware\\-update/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/rice\\-lake\\-digital\\-physician\\-scale\\-eye\\-level\\-150\\-10\\-5$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/rice\\-lake\\-digital\\-physician\\-scale\\-eye\\-level\\-150\\-10\\-5/$",
+      "status": 301,
+      "headers": {
+        "Location": "/blogs/news/rice-lake-bluetooth-physician-scales"
+      }
+    },
+    {
+      "src": "^/products/rice\\-lake\\-digital\\-physician\\-scale\\-waist\\-level\\-150\\-10\\-6$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/rice\\-lake\\-digital\\-physician\\-scale\\-waist\\-level\\-150\\-10\\-6/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/rice\\-lake\\-scale\\-150\\-10\\-7\\-power\\-adapter$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/rice\\-lake\\-scale\\-150\\-10\\-7\\-power\\-adapter/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/rolling\\-ipad\\-kiosk\\-stand$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/products/rolling\\-ipad\\-kiosk\\-stand/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/search$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/search/$",
+      "status": 410,
+      "dest": "/410.html"
+    },
+    {
+      "src": "^/resources$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/"
+      }
+    },
+    {
+      "src": "^/resources/data\\-ams$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/data-ams/"
+      }
+    },
+    {
+      "src": "^/resources/health\\-performance$",
+      "status": 301,
+      "headers": {
+        "Location": "/resources/health-performance/"
+      }
+    },
+    {
+      "src": "^/support$",
+      "status": 301,
+      "headers": {
+        "Location": "/support/"
+      }
+    },
+    {
+      "src": "^/privacy$",
+      "status": 301,
+      "headers": {
+        "Location": "/privacy/"
+      }
+    },
+    {
+      "src": "^/$",
+      "dest": "/index.html"
+    },
+    {
+      "src": "^/resources/?$",
+      "dest": "/resources/index.html"
+    },
+    {
+      "src": "^/resources/data\\-ams/?$",
+      "dest": "/resources/data-ams/index.html"
+    },
+    {
+      "src": "^/resources/health\\-performance/?$",
+      "dest": "/resources/health-performance/index.html"
+    },
+    {
+      "src": "^/blogs/news/how\\-to\\-set\\-up\\-your\\-rice\\-lake\\-bluetooth\\-scale\\-with\\-teamworks\\-ams/?$",
+      "dest": "/blogs/news/how-to-set-up-your-rice-lake-bluetooth-scale-with-teamworks-ams/index.html"
+    },
+    {
+      "src": "^/blogs/news/rice\\-lake\\-bluetooth\\-physician\\-scales/?$",
+      "dest": "/blogs/news/rice-lake-bluetooth-physician-scales/index.html"
+    },
+    {
+      "src": "^/blogs/health\\-performance/unlocking\\-peak\\-performance\\-the\\-benefits\\-of\\-whole\\-body\\-red\\-light\\-therapy/?$",
+      "dest": "/blogs/health-performance/unlocking-peak-performance-the-benefits-of-whole-body-red-light-therapy/index.html"
+    },
+    {
+      "src": "^/blogs/health\\-performance/fitbit\\-inspire\\-3\\-activity\\-sleep\\-tracker/?$",
+      "dest": "/blogs/health-performance/fitbit-inspire-3-activity-sleep-tracker/index.html"
+    },
+    {
+      "src": "^/blogs/news/3\\-ways\\-to\\-integrate\\-data\\-into\\-a\\-teamworks\\-ams\\-smartabase\\-site/?$",
+      "dest": "/blogs/news/3-ways-to-integrate-data-into-a-teamworks-ams-smartabase-site/index.html"
+    },
+    {
+      "src": "^/blogs/news/what\\-is\\-an\\-api\\-a\\-simple\\-guide\\-for\\-integrating\\-data\\-in\\-athlete\\-management\\-systems/?$",
+      "dest": "/blogs/news/what-is-an-api-a-simple-guide-for-integrating-data-in-athlete-management-systems/index.html"
+    },
+    {
+      "src": "^/blogs/news/installing\\-smartabaser\\-a\\-step\\-by\\-step\\-guide/?$",
+      "dest": "/blogs/news/installing-smartabaser-a-step-by-step-guide/index.html"
+    },
+    {
+      "src": "^/blogs/news/breaking\\-down\\-the\\-teamworks\\-gatorade\\-weight\\-tracking\\-solution/?$",
+      "dest": "/blogs/news/breaking-down-the-teamworks-gatorade-weight-tracking-solution/index.html"
+    },
+    {
+      "src": "^/blogs/news/rice\\-lake\\-bluetooth\\-scale\\-integration\\-with\\-smartabase\\-emr/?$",
+      "dest": "/blogs/news/rice-lake-bluetooth-scale-integration-with-smartabase-emr/index.html"
+    },
+    {
+      "src": "^/support/?$",
+      "dest": "/support/index.html"
+    },
+    {
+      "src": "^/privacy/?$",
+      "dest": "/privacy/index.html"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/404.html",
+      "status": 404
+    }
+  ]
+}

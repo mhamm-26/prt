@@ -19,6 +19,7 @@ Open the preview server on port 8000. In a second terminal run:
 
 ```sh
 python tools/check.py
+python tools/check_vercel.py
 ```
 
 `dist/` is generated and ignored. It contains the entire deployable static site.
@@ -46,7 +47,8 @@ without JavaScript.
 
 Pushing this repository to GitHub does **not** replace the live Shopify website.
 See [hosting instructions](docs/HOSTING.md) and the [cutover checklist](docs/CUTOVER.md).
-Upload only `dist/` as the web root. Keep backups, tools, and documentation out of
+Vercel build and routing settings are included in `vercel.json`.
+Upload only `dist/` as the web root on other static hosts. Keep backups, tools, and documentation out of
 that root. Configure the supplied HTTP routing rules before changing DNS.
 
 ## Migration evidence and limitations

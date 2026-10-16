@@ -8,7 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build static site
-        run: python3 tools/build.py
+        run: |
+          python3 tools/build.py
+          python3 tools/check_vercel.py
+          git diff --exit-code -- vercel.json
       - name: Validate pages and migration routes
         run: |
           python3 tools/serve.py > /tmp/prt-preview.log 2>&1 &

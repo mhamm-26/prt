@@ -1,6 +1,32 @@
 # Hosting the static website
 
-## Recommended: an nginx static host
+## Vercel
+
+The committed `vercel.json` configures the Python build, `dist` output directory,
+and all page/redirect/error routes. Import this GitHub repository with:
+
+- Framework preset: **Other**
+- Root Directory: repository root (leave blank)
+- Production Branch: **main**
+
+The repository configuration supplies Build Command `python3 tools/build.py`,
+Output Directory `dist`, and no install step. Remove conflicting dashboard
+command overrides if you previously set them. Deploy the latest main commit;
+if automatic Git deployments are disabled, manually redeploy that commit.
+
+A Vercel platform `404 NOT_FOUND` at `/` is different from this site's custom 404:
+check that the deployment built this repository root and published `dist`, and
+that the domain points to that deployment. Do not publish `public` as the output:
+it contains assets but no generated pages.
+
+`python tools/build.py` regenerates `vercel.json` from the same route table as
+nginx. Commit any resulting configuration changes before deployment, because
+Vercel reads configuration before running the build. Run
+`python tools/check_vercel.py` to validate route targets and redirect behavior.
+The config preserves original article URLs, 301s, retired-page 410s, and a true
+custom 404. There is no homepage catch-all.
+
+## Alternative: an nginx static host
 
 1. Run `python tools/build.py` in the repository root.
 2. Copy the **contents** of `dist/` to `/srv/prorecoverytech/` on your host.
